@@ -80,8 +80,6 @@ We propose two sample portfolios for a large investor with $10B+ in deployable c
 
 ```text
 
-├── data/                # Raw & processed datasets (demand, retirements, tech costs)
-├── notebooks/           # Jupyter notebooks for exploration & forecasting
 ├── models/              # Core modeling logic (demand growth, retirements, build-out)
 ├── visualizations/      # Plots, charts, and interactive assets
 ├── dashboard/           # Lovable app files for portfolio tracking
