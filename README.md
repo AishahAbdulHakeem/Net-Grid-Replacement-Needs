@@ -23,8 +23,6 @@ We package these findings into an **investment strategy** for a large institutio
 - **Demand Growth**: Estimated from historical regional usage, population trends, industrial shifts, and climate adaptation.  
 - **Asset Retirement**: Modeled using in-service dates and expected lifetimes by technology type.  
 - **Technology Mix**: Evaluated across solar, wind, nuclear, natural gas, and storage for both ROI and reliability.  
-- **Policy & Regulation**: Considered scenarios for carbon pricing, renewable mandates, and permitting reforms.  
-- **Supply Chain Constraints**: Incorporated limits in manufacturing capacity, raw materials, and skilled labor availability.  
 - **Risk Analysis**: Identified risks from policy reversals, economic shocks, and technology disruptions.  
 
 ### 2. Quantitative Model
@@ -54,10 +52,22 @@ We created a regional and temporal breakdown of net new capacity requirements:
    - Risk factors and mitigation  
    - Competitive landscape  
 
-4. **Investment Portfolios**  
-   Two sample portfolios for $10B+ capital deployment:  
-   - **Balanced Reliability Portfolio**: Heavier allocation to natural gas + nuclear for stability.  
-   - **Growth & Transition Portfolio**: Aggressive solar, wind, and storage mix with policy upside.  
+4. **Investment Portfolios**
+
+We propose two sample portfolios for a large investor with $10B+ in deployable capital.  
+
+#### **Portfolio A: Transition Backbone Strategy (55% Allocation)**
+- **Focus**: Utility-scale generation and storage projects  
+- **Expected ROI**: **9.5–12.5%** driven by Solar PV, Storage, and Onshore Wind  
+- **Strengths**: Stable returns, core infrastructure focus, scalable projects  
+- **Risks**: Technology obsolescence, material supply constraints  
+
+#### **Portfolio B: Distributed Resilience Strategy (45% Allocation)**
+- **Focus**: Distributed resources and customer-level (behind-the-meter) storage  
+- **Expected ROI**: **11–16%** driven by high-margin consumer technology providers  
+- **Strengths**: Faster growth, exposure to consumer adoption trends, higher margins  
+- **Risks**: Local regulatory hurdles, uneven adoption rates across regions  
+
 
 5. **Performance Dashboard**  
    - Built in **Lovable** for real-time portfolio tracking.  
