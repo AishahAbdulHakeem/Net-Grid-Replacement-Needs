@@ -6,11 +6,11 @@ This project was developed during a hackathon challenge focused on using **AI De
 ---
 
 ## 🌍 Problem Statement
-Future U.S. energy demand can be estimated, but the **net new replacement capacity**—the amount of power that must be added each year to meet new demand and replace retiring assets—remains unclear.  
+Future U.S. energy demand can be estimated, but the **net new replacement capacity**, the amount of power that must be added each year to meet new demand and replace retiring assets, remains unclear.  
 
 Our model tackles this challenge by accounting for:
 - Growth in regional energy demand  
-- Retirement of aging powerplants  
+- Retirement of aging power plants  
 - Construction timelines for new generation assets  
 - Downtime and reliability reserves  
 
@@ -29,7 +29,7 @@ We package these findings into an **investment strategy** for a large institutio
 
 ### 2. Quantitative Model
 We created a regional and temporal breakdown of net new capacity requirements:  
-- **Years 1–5**: Immediate build-out to replace coal retirements and stabilize grid reliability.  
+- **Years 1–5**: Immediate build out to replace coal retirements and stabilize grid reliability.  
 - **Years 6–10**: Scaling of renewables and storage with continued gas backup.  
 - **Years 11–20**: Long-term growth dominated by nuclear, advanced storage, and next-gen solar/wind.  
 
@@ -43,10 +43,10 @@ We created a regional and temporal breakdown of net new capacity requirements:
    - Geographic distribution and retirement trajectories.  
    - Interactive tool available here: 👉 [Power Plant Retirements Visualization](https://chp36.github.io/power_plant_retirements/)  
 
-3. **High-Potential Investment Categories**  
-   - **Utility-Scale Solar + Storage**  
+3. **High Potential Investment Categories**  
+   - **Utility Scale Solar + Storage**  
    - **Onshore & Offshore Wind**  
-   - **Next-Gen Nuclear & SMRs**  
+   - **Next Gen Nuclear & SMRs**  
 
    Each includes:
    - Capital deployment timelines  
@@ -67,3 +67,26 @@ We created a regional and temporal breakdown of net new capacity requirements:
 ---
 
 ## 🗂 Project Structure
+
+├── data/ # Regional demand & retirement datasets
+├── notebooks/ # Forecasting & modeling notebooks
+├── models/ # Net new build out forecasting logic
+├── visualizations/ # Charts, graphs, and dashboard exports
+├── README.md # Project overview (this file)
+
+
+---
+
+## 🚀 How to Use
+1. Explore the **retirement visualization**:  
+   [Power Plant Retirements](https://chp36.github.io/power_plant_retirements/)  
+2. Monitor investment strategy via the **dashboard**:  
+   [Grid Performance Lens](https://grid-performance-lens.lovable.app/)  
+3. Adapt the model for custom scenarios by modifying assumptions in `/models/`.
+
+ ---
+ 
+## 👥 Team
+Developed during the Hackathon Sprint by a cross-functional team of  engineer, analyst and business students.  
+
+---
