@@ -1,32 +1,69 @@
 # Net-Grid-Replacement-Needs
-Develop a model for net new powerplant build out in the United States. This model should deal with growth in capacity, retirement of old assets, new asset construction timelines, and downtime/reliability reserves. Make your forecast for at least the next 20 years. 
 
+A forecasting and investment strategy model for **net new powerplant build-out in the United States** over the next 20 years.  
+This project was developed during a hackathon challenge focused on using **AI Deep Research techniques** to analyze future grid requirements and investment opportunities.  
 
-### Problem  
-From the outside in, the total future energy demand in the system can be roughly estimated, but the net new replacement capacity and timing is not clear today. Using emerging AI Deep Research techniques, please develop a model for net new powerplant build out in the United States. This model should deal with growth in capacity, retirement of old assets, new asset construction timelines, and downtime/reliability reserves. Make your forecast for at least the next 20 years. Your answer should be packaged as an investment strategy from the seat of a large investor.   
+---
 
+## 🌍 Problem Statement
+Future U.S. energy demand can be estimated, but the **net new replacement capacity**—the amount of power that must be added each year to meet new demand and replace retiring assets—remains unclear.  
 
-### Additional Considerations 
-1. New new replacement capacity = the amount of annual production that should be built into the grid in order to meet increased overall demand along with replacement of retired assets. 
-2. Regional demand analysis: Historical regional energy use data is available. Be sure to describe your logic and method for estimation of any future growth or reduction in the regions you assess. Consider factors such as existing infrastructure age, population trends, industrial base, industrial base change, climate change, and regional policies. 
-3. Technology Mix Assessment: What combination of generation technologies (solar, wind, nuclear, natural gas, battery storage, etc.) would optimize for both financial returns and grid reliability? How might this mix evolve over the 20-year forecast period? 
-4. Policy and Regulatory Impacts: How might changes in energy policy at federal, state, and local levels affect investment opportunities? Consider scenarios for carbon pricing, renewable portfolio standards, and streamlined permitting. 
-5. Supply Chain Constraints: What bottlenecks exist in manufacturing capacity, skilled labor, or raw materials that could impact deployment timelines and costs? How should these be factored into investment strategies? 
-6. Risk Assessment: What are the key risks to your investment thesis (technological disruptions, policy reversals, economic shifts, climate impacts)? How would you hedge against these risks in a diversified portfolio approach?
-7. Timing Windows: Identify optimal entry and exit points for different types of grid infrastructure investments over the 20-year horizon. Which investments need to be made early vs. which can wait for technology improvements or price declines? 
-### Deliverables 
-Your final investment strategy should include: 
-1. A quantitative model forecasting net new power capacity needs by technology type, region, and timeline (years 1-5, 6-10, 11-20) 
-2. Visual representation of asset retirement trajectories for existing infrastructure, including geographic distribution and replacement scheduling - this is a key analysis and should draw on actual asset in service dates and expected time to retirement (a small accurate sample with method is better than sweeping generalizations)
-3. A detailed analysis of at least 3 high-potential investment categories with: ○ Required capital deployment timelines 
-○ Expected ROI ranges under different scenarios 
-○ Key risk factors and mitigation strategies 
-○ Competitive landscape analysis 
-4. At least 2 detailed investment portfolio options for a large investor with $10+ billion in deployable capital, including: 
-○ Asset allocation strategies across technology types 
-○ Geographic diversification approach 
-○ Public vs. private market strategies 
-○ Recommended investment vehicles (direct project investment, funds, public equities, etc.) 
-5. A "dashboard" design for tracking investment performance, including key metrics and decision points that would trigger portfolio rebalancing
+Our model tackles this challenge by accounting for:
+- Growth in regional energy demand  
+- Retirement of aging powerplants  
+- Construction timelines for new generation assets  
+- Downtime and reliability reserves  
 
+We package these findings into an **investment strategy** for a large institutional investor with $10B+ in deployable capital.  
 
+---
+
+## 📊 Methodology
+### 1. Forecasting Framework
+- **Demand Growth**: Estimated from historical regional usage, population trends, industrial shifts, and climate adaptation.  
+- **Asset Retirement**: Modeled using in-service dates and expected lifetimes by technology type.  
+- **Technology Mix**: Evaluated across solar, wind, nuclear, natural gas, and storage for both ROI and reliability.  
+- **Policy & Regulation**: Considered scenarios for carbon pricing, renewable mandates, and permitting reforms.  
+- **Supply Chain Constraints**: Incorporated limits in manufacturing capacity, raw materials, and skilled labor availability.  
+- **Risk Analysis**: Identified risks from policy reversals, economic shocks, and technology disruptions.  
+
+### 2. Quantitative Model
+We created a regional and temporal breakdown of net new capacity requirements:  
+- **Years 1–5**: Immediate build-out to replace coal retirements and stabilize grid reliability.  
+- **Years 6–10**: Scaling of renewables and storage with continued gas backup.  
+- **Years 11–20**: Long-term growth dominated by nuclear, advanced storage, and next-gen solar/wind.  
+
+---
+
+## 📈 Key Deliverables
+1. **Quantitative Forecasting Model**  
+   - Net new capacity required by **technology, region, and timeline (1–5, 6–10, 11–20 years)**.  
+
+2. **Asset Retirement Visualization**  
+   - Geographic distribution and retirement trajectories.  
+   - Interactive tool available here: 👉 [Power Plant Retirements Visualization](https://chp36.github.io/power_plant_retirements/)  
+
+3. **High-Potential Investment Categories**  
+   - **Utility-Scale Solar + Storage**  
+   - **Onshore & Offshore Wind**  
+   - **Next-Gen Nuclear & SMRs**  
+
+   Each includes:
+   - Capital deployment timelines  
+   - ROI ranges under scenarios  
+   - Risk factors and mitigation  
+   - Competitive landscape  
+
+4. **Investment Portfolios**  
+   Two sample portfolios for $10B+ capital deployment:  
+   - **Balanced Reliability Portfolio**: Heavier allocation to natural gas + nuclear for stability.  
+   - **Growth & Transition Portfolio**: Aggressive solar, wind, and storage mix with policy upside.  
+
+5. **Performance Dashboard**  
+   - Built in **Lovable** for real-time portfolio tracking.  
+   - Monitors: ROI, grid reliability, capacity growth, retirement coverage.  
+   - Live version: 👉 [Grid Performance Lens Dashboard](https://grid-performance-lens.lovable.app/)  
+
+---
+
+## 🗂 Project Structure
