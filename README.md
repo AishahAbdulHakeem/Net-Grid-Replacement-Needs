@@ -78,11 +78,16 @@ We propose two sample portfolios for a large investor with $10B+ in deployable c
 
 ## 🗂 Project Structure
 
-├── data/ # Regional demand & retirement datasets
-├── notebooks/ # Forecasting & modeling notebooks
-├── models/ # Net new build out forecasting logic
-├── visualizations/ # Charts, graphs, and dashboard exports
-├── README.md # Project overview (this file)
+```text
+
+├── data/                # Raw & processed datasets (demand, retirements, tech costs)
+├── notebooks/           # Jupyter notebooks for exploration & forecasting
+├── models/              # Core modeling logic (demand growth, retirements, build-out)
+├── visualizations/      # Plots, charts, and interactive assets
+├── dashboard/           # Lovable app files for portfolio tracking
+├── docs/                # References and hackathon deliverables
+└── README.md            # Project overview (this file)
+```
 
 
 ---
