@@ -1,105 +1,172 @@
-# Net-Grid-Replacement-Needs
+# Net Grid Replacement Needs
 
-A forecasting and investment strategy model for **net new powerplant build-out in the United States** over the next 20 years.  
-This project was developed during a hackathon challenge focused on using **AI Deep Research techniques** to analyze future grid requirements and investment opportunities.  
+A quantitative forecasting and investment strategy project analyzing future U.S. electric grid replacement needs over a 20-year horizon.
 
----
+This project was developed during an AI-focused hackathon challenge and uses research, modeling, and scenario analysis to estimate where new generation capacity may be needed as demand grows and aging power plants retire.
 
-## 🌍 Problem Statement
-Future U.S. energy demand can be estimated, but the **net new replacement capacity**, the amount of power that must be added each year to meet new demand and replace retiring assets, remains unclear.  
+## Project Overview
 
-Our model tackles this challenge by accounting for:
-- Growth in regional energy demand  
-- Retirement of aging power plants  
-- Construction timelines for new generation assets  
-- Downtime and reliability reserves  
+The U.S. power grid faces two simultaneous pressures: rising electricity demand and the retirement of aging generation assets. This project estimates **net new capacity needs** by combining demand growth assumptions, asset retirement timelines, technology mix analysis, and investment strategy thinking.
 
-We package these findings into an **investment strategy** for a large institutional investor with $10B+ in deployable capital.  
+The final output connects technical modeling with business decision-making: a forecast of replacement needs, high-potential investment categories, and portfolio strategies for a large institutional investor.
 
----
+## Problem Statement
 
-## 📊 Methodology
-### 1. Forecasting Framework
-- **Demand Growth**: Estimated from historical regional usage, population trends, industrial shifts, and climate adaptation.  
-- **Asset Retirement**: Modeled using in-service dates and expected lifetimes by technology type.  
-- **Technology Mix**: Evaluated across solar, wind, nuclear, natural gas, and storage for both ROI and reliability.  
-- **Risk Analysis**: Identified risks from policy reversals, economic shocks, and technology disruptions.  
+Future energy demand can be estimated, but the more strategic question is:
 
-### 2. Quantitative Model
-We created a regional and temporal breakdown of net new capacity requirements:  
-- **Years 1–5**: Immediate build out to replace coal retirements and stabilize grid reliability.  
-- **Years 6–10**: Scaling of renewables and storage with continued gas backup.  
-- **Years 11–20**: Long-term growth dominated by nuclear, advanced storage, and next-gen solar/wind.  
+> How much new generation capacity must be built to meet future demand while replacing retiring assets and maintaining grid reliability?
 
----
+This model considers:
 
-## 📈 Key Deliverables
-1. **Quantitative Forecasting Model**  
-   - Net new capacity required by **technology, region, and timeline (1–5, 6–10, 11–20 years)**.  
+- Regional energy demand growth
+- Retirement of aging power plants
+- Technology-specific construction timelines
+- Reliability reserve needs and downtime assumptions
+- Capital deployment opportunities for infrastructure investors
 
-2. **Asset Retirement Visualization**  
-   - Geographic distribution and retirement trajectories.  
-   - Interactive tool available here: 👉 [Power Plant Retirements Visualization](https://chp36.github.io/power_plant_retirements/)  
+## Methodology
 
-3. **High Potential Investment Categories**  
-   - **Utility Scale Solar + Storage**  
-   - **Onshore & Offshore Wind**  
-   - **Next Gen Nuclear & SMRs**  
+### 1. Demand and Replacement Forecasting
 
-   Each includes:
-   - Capital deployment timelines  
-   - ROI ranges under scenarios  
-   - Risk factors and mitigation  
-   - Competitive landscape  
+The model evaluates net new capacity needs by combining:
 
-4. **Investment Portfolios**
+- Historical and projected electricity demand
+- Population and industrial demand trends
+- Climate adaptation and electrification pressures
+- Existing power plant age and expected retirement windows
+- Replacement timelines across multiple generation technologies
 
-We propose two sample portfolios for a large investor with $10B+ in deployable capital.  
+### 2. Technology Mix Analysis
 
-#### **Portfolio A: Transition Backbone Strategy (55% Allocation)**
-- **Focus**: Utility-scale generation and storage projects  
-- **Expected ROI**: **9.5–12.5%** driven by Solar PV, Storage, and Onshore Wind  
-- **Strengths**: Stable returns, core infrastructure focus, scalable projects  
-- **Risks**: Technology obsolescence, material supply constraints  
+The project compares several energy categories, including:
 
-#### **Portfolio B: Distributed Resilience Strategy (45% Allocation)**
-- **Focus**: Distributed resources and customer-level (behind-the-meter) storage  
-- **Expected ROI**: **11–16%** driven by high-margin consumer technology providers  
-- **Strengths**: Faster growth, exposure to consumer adoption trends, higher margins  
-- **Risks**: Local regulatory hurdles, uneven adoption rates across regions  
+- Utility-scale solar and storage
+- Onshore and offshore wind
+- Natural gas backup generation
+- Next-generation nuclear and small modular reactors
+- Grid storage and distributed resilience technologies
 
+### 3. Scenario and Risk Analysis
 
-5. **Performance Dashboard**  
-   - Built in **Lovable** for real-time portfolio tracking.  
-   - Monitors: ROI, grid reliability, capacity growth, retirement coverage.  
-   - Live version: 👉 [Grid Performance Lens Dashboard](https://grid-performance-lens.lovable.app/)  
+The strategy accounts for risk factors such as:
 
----
+- Policy and regulatory changes
+- Material supply constraints
+- Technology obsolescence
+- Construction delays
+- Regional adoption differences
+- Reliability and intermittency challenges
 
-## 🗂 Project Structure
+## Key Deliverables
+
+### Quantitative Forecasting Model
+
+Forecasts net new capacity needs across technology, region, and timeline:
+
+- **Years 1–5:** Immediate build-out to replace coal retirements and stabilize grid reliability
+- **Years 6–10:** Scaling renewables and storage while maintaining backup capacity
+- **Years 11–20:** Long-term growth from nuclear, advanced storage, and next-generation solar/wind
+
+### Asset Retirement Visualization
+
+Interactive visualization showing geographic distribution and retirement patterns of existing power plants.
+
+🔗 Power Plant Retirements Visualization: https://chp36.github.io/power_plant_retirements/
+
+### Investment Strategy
+
+The project identifies high-potential investment categories:
+
+- Utility-scale solar + storage
+- Onshore and offshore wind
+- Next-generation nuclear and SMRs
+- Distributed resilience and behind-the-meter storage
+
+Each category includes capital deployment timing, ROI assumptions, risk factors, and strategic considerations.
+
+### Sample Portfolio Strategies
+
+#### Portfolio A: Transition Backbone Strategy
+
+- **Allocation:** 55%
+- **Focus:** Utility-scale generation and storage projects
+- **Expected ROI:** 9.5–12.5%
+- **Strengths:** Stable returns, core infrastructure focus, scalable deployment
+- **Risks:** Technology obsolescence and material supply constraints
+
+#### Portfolio B: Distributed Resilience Strategy
+
+- **Allocation:** 45%
+- **Focus:** Distributed resources and customer-level storage
+- **Expected ROI:** 11–16%
+- **Strengths:** Faster growth, consumer adoption exposure, higher-margin technology providers
+- **Risks:** Local regulatory hurdles and uneven regional adoption
+
+### Performance Dashboard
+
+A dashboard prototype was built for real-time portfolio tracking.
+
+Monitored metrics include:
+
+- ROI
+- Grid reliability
+- Capacity growth
+- Retirement coverage
+- Portfolio performance
+
+🔗 Grid Performance Lens Dashboard: https://grid-performance-lens.lovable.app/
+
+## Project Structure
 
 ```text
-
-├── models/              # Core modeling logic (demand growth, retirements, build-out)
-├── visualizations/      # Plots, charts, and interactive assets
-├── dashboard/           # Lovable app files for portfolio tracking
-├── docs/                # References and hackathon deliverables
-└── README.md            # Project overview (this file)
+├── models/              # Forecasting assumptions and modeling logic
+├── visualizations/      # Charts, plots, and interactive visual assets
+├── dashboard/           # Dashboard prototype files
+├── docs/                # Research notes, references, and hackathon deliverables
+└── README.md            # Project documentation
 ```
 
+## What This Project Demonstrates
 
----
+This project highlights my ability to combine data analysis, AI-assisted research, forecasting, and strategic business thinking.
 
-## 🚀 How to Use
-1. Explore the **retirement visualization**:  
-   [Power Plant Retirements](https://chp36.github.io/power_plant_retirements/)  
-2. Monitor investment strategy via the **dashboard**:  
-   [Grid Performance Lens](https://grid-performance-lens.lovable.app/)  
-3. Adapt the model for custom scenarios by modifying assumptions in `/models/`.
+It demonstrates experience with:
 
- ---
- 
-## 👥 Team
-Developed during the Hackathon Sprint by a cross-functional team of  engineer, analyst and business students.  
+- Quantitative forecasting
+- Scenario analysis
+- Infrastructure and energy market research
+- Data visualization and dashboard design
+- AI-assisted research workflows
+- Translating technical analysis into investment recommendations
+- Cross-functional collaboration across engineering, analytics, and business strategy
 
----
+## Role and Contributions
+
+As part of the hackathon team, I contributed to the technical modeling, research synthesis, AI-assisted analysis, and strategic framing of the final recommendation.
+
+The project earned recognition for **AI architecture** and **technical leadership**, reflecting the team's ability to combine AI tools, data modeling, and business insight into a clear investment strategy.
+
+## How to Use
+
+1. Explore the retirement visualization:
+   https://chp36.github.io/power_plant_retirements/
+
+2. Review the dashboard prototype:
+   https://grid-performance-lens.lovable.app/
+
+3. Adapt model assumptions inside `/models/` for custom scenarios.
+
+## Future Improvements
+
+- Add documented data sources and model assumptions
+- Expand regional forecasting granularity
+- Add sensitivity analysis for demand growth, retirement timelines, and policy changes
+- Build reproducible notebooks for the modeling workflow
+- Add automated dashboard refreshes from updated source data
+- Compare investment outcomes under multiple market scenarios
+
+## About
+
+Developed during an AI-focused hackathon sprint by a cross-functional team of engineering, analytics, and business students.
+
+This project supports my broader focus on **data engineering, automation, forecasting, infrastructure analytics, and technical decision-support systems**.
